@@ -1,0 +1,81 @@
+
+#root {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+}
+/* .logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+@keyframes zoomInOut {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+.zoom-animate {
+  animation: zoomInOut 1.5s ease-in-out infinite;
+}
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Target the flag wrapper and flag itself */
+.custom-phone-input-container .flag-dropdown {
+  width: 44px !important;
+  height: 28px !important;
+  border-radius: 4px !important;
+  padding: 0 !important;
+}
+
+.custom-phone-input-container .selected-flag {
+  width: 100% !important;
+  height: 100% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px !important;
+}
+
+.custom-phone-input-container .flag {
+  width: 30px !important;
+  height: 18px !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  border-radius: 3px !important;
+}
+
